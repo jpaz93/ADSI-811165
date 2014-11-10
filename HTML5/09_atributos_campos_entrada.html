@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>atributos campos entrada</title>
+</head>
+<body>
+	<h1>atributos campos entrada</h1>
+	<hr>
+	<form action="">
+		<fieldset>
+			<legend><h2>required/placeholder/autofocus</h2></legend>
+			<input type="text" name="nombre" placeholder="ingrese nombre" required autofocus>
+		</fieldset>
+
+		<fieldset>
+			<legend><h2>min/max/step/autofocus</h2></legend>
+			<input type="number" name="edad" placeholder="edad" min="17" max="60" step="10" autofocus>	
+		</fieldset>
+
+		<fieldset>
+			<legend><h2>multiple</h2></legend>
+			<label>seleccione sus deportes favoritos</label>
+			<select multiple>
+			    <option value="1">futbol</option>
+			    <option value="2">baloncesto</option>
+			    <option value="3">ciclismo</option>
+			    <option value="4">tejo</option>			   
+			</select>
+		</fieldset>
+
+fieldset>legend>h2{formmethod}^input*2
+		<fieldset>
+			<legend><h2>formMethod</h2></legend>
+			<input type="submit" value="enviar por post" formmethod="post" >
+			<input type="submit" value="enviar por post" formmethod="get" >
+		</fieldset>
+	</form>
+</body>
+</html>
